@@ -20,7 +20,7 @@ public class EmployeeDAOHibernateImpl implements EmployeeDAO {
 	//set up constructor injection 
 	@Autowired
 	public EmployeeDAOHibernateImpl(EntityManager theEntityManager) {
-		theEntityManager=entityManager;
+		entityManager=theEntityManager;
 		
 	}
 	
